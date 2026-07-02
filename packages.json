@@ -1,0 +1,38 @@
+{
+    "repository": {
+        "name": "MexiaHub Official",
+        "id": "official",
+        "version": 1,
+        "updated": "2026-07-02",
+        "author": "MexiaHub",
+        "description": "Official MexiaHub Repository",
+        "min_engine": "0.2.0"
+    },
+
+    "packages": {
+
+        "telethon": {
+
+            "name": "Telethon",
+
+            "version": "1.44.0",
+
+            "method": "pip",
+
+            "sources": [
+                "telethon"
+            ],
+
+            "import": "telethon",
+
+            "dependencies": [],
+
+            "plugin": "",
+
+            "description": "Telegram MTProto client",
+
+            "homepage": "https://github.com/LonamiWebs/Telethon"
+        }
+
+    }
+}
